@@ -1,0 +1,72 @@
+.container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .containera {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .logo-top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .logo-top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .logo-top-left img { 
+    width: 100px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Atur tinggi gambar agar proporsi tetap terjaga */
+    margin-top: 10px;
+}
+  .logo-top-right img {
+    width: 40px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Atur tinggi gambar agar proporsi tetap terjaga */
+}
+  .content {
+    margin-top: 50px; /* Adjust this value based on your logo height */
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .qr-code img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  
+  .confirmation-button button {
+    background-color: #007bff; /* Warna biru (sesuaikan dengan warna yang Anda inginkan) */
+    color: #fff; /* Warna teks putih */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirmation-button button:hover {
+    background-color: #0056b3; /* Warna biru yang lebih gelap saat tombol dihover */
+  }
+  
+  
